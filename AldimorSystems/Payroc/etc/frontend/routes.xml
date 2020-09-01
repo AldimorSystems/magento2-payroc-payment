@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    AldimorSystems
+ * @package     AldimorSystems_Payroc
+ * @author      Alejandro Diaz
+ * @copyright   AldimorSystems (https://aldimorsystems.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="aldimorsystems-payroc" frontName="aldimorsystems-payroc">
+            <module name="AldimorSystems_Payroc" />
+        </route>
+    </router>
+</config>
